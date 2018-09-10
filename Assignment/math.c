@@ -70,7 +70,7 @@ int math(int num1, int num2, char Operator) //math function with arguments for 2
         break;
         
         case '~':
-        output = ~num1;
+        output = ~num1; //case in which '~' is selected performs logical inversion
         break;
     
         default:
